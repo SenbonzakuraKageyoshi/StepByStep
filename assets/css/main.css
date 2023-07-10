@@ -2,18 +2,18 @@
 @import './vendors/typography.css';
 @import './vendors/vars.css';
 
-@import './components/_header.css';
-@import './components/_slider.css';
-@import './components/_footer.css';
-@import './components/_modal.css';
+@import './components/header.css';
+@import './components/slider.css';
+@import './components/footer.css';
+@import './components/modal.css';
 
-@import './sections/_top.css';
-@import './sections/_advantages.css';
-@import './sections/_about.css';
-@import './sections/_courses.css';
-@import './sections/_reviews.css';
-@import './sections/_gallery.css';
-@import './sections/_app.css';
+@import './sections/top.css';
+@import './sections/advantages.css';
+@import './sections/about.css';
+@import './sections/courses.css';
+@import './sections/reviews.css';
+@import './sections/gallery.css';
+@import './sections/app.css';
 
 body{
     background: rgba(217, 217, 217, 0.10);
