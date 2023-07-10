@@ -1,0 +1,134 @@
+.section-courses__title{
+    color: var(--white);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 140%;
+    max-width: 561px;
+    margin: 0 auto;
+}
+
+.section-courses{
+    padding: 60px 0px;
+    background: linear-gradient(180deg, #001E5C 0%, #011339 100%);
+    position: relative;
+}
+
+.courses-list__item__age{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 140%;
+    background: var(--red);
+    padding: 14px 30px;
+    border-radius: 41px;
+    border: 1px solid var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.courses-list__item__time{
+    color: #001E5C;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.courses-list__item__time span{
+    color: #001E5C;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 140%;
+    display: block;
+}
+
+.courses-list__item__pricing-item__name{
+    color: var(--blue);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.courses-list__item__pricing-item__name span{
+    display: block;
+    font-weight: 700;
+}
+
+.courses-list__item__pricing-item__value{
+    color: var(--red);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 140%;
+    margin-top: 5px;
+}
+
+.courses-list__item__pricing{
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--blue);
+    width: 100%;
+}
+
+.courses-list__item .modal__button{
+    margin-top: 24px;
+}
+
+.courses-list__item__pricing-item:not(:first-child){
+    margin-top: 15px;
+}
+
+.courses-list__item{
+    background: var(--white);
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    padding: 36px 24px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.courses-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-top: 16px;
+}
+
+.section-courses img:nth-child(1){
+    position: absolute;
+    top: -85px;
+    right: 0;
+}
+
+.section-courses img:nth-child(2){
+    position: absolute;
+    left: 0;
+    bottom: -90px;
+}
+
+@media(max-width: 768px){
+    .section-courses__title{
+        font-size: 24px;
+    }
+
+    .section-courses img:nth-child(2){
+        position: absolute;
+        left: 0;
+        bottom: -180px;
+        width: 131px;
+        height: 304;
+        z-index: 10;
+    }
+}

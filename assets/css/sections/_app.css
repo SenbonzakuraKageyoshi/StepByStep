@@ -1,0 +1,132 @@
+.section-app{
+    background: rgba(217, 217, 217, 0.10);
+    position: relative;
+    padding: 100px 0px;
+}
+
+.section-app__content{
+    border-radius: 36px;
+    background: linear-gradient(180deg, #001E5C 0%, #011336 100%);
+    padding: 62px 0px;
+    position: relative;
+}
+
+.section-app-wrapper{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+}
+
+.section-app-title{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 581px;
+    margin: 0 auto;
+}
+
+.app-list__item{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--white);
+    list-style: disc;
+}
+
+.app-list{
+    max-width: 581px;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding-left: 20px;
+}
+
+.section-app__content-main{
+    margin-left: 150px;
+}
+
+.section-app__image{
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+}
+
+.app-download-links a{
+    display: block;
+}
+
+.app-download__code__name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.app-download__code{
+    margin-left: 22px;
+}
+
+.app-download{
+    position: absolute;
+    bottom: 21px;
+    right: 24px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-app__image.resp{
+    display: none;
+}
+
+@media(max-width: 1070px){
+    .app-download{
+        position: static;
+        flex-direction: column-reverse;
+        align-items: center; 
+        margin-top: 24px;   
+    }
+
+    .app-download__code{
+        margin-left: 0px;
+        margin-bottom: 16px;
+    }
+
+    .section-app__image.resp{
+        display: block;
+    }
+
+    .section-app__image{
+        display: none;
+        position: static;
+        margin-top: -120px;
+        margin-bottom: 34px;
+    }
+
+    .section-app__content{
+        display: flex;
+        align-items: center;  
+        flex-direction: column;
+        padding: 0px 18px 28px 18px;
+    }
+
+    .section-app__content-main{
+        margin-left: 0px;
+    }
+
+    .section-app{
+        background: rgba(217, 217, 217, 0.10);
+        position: relative;
+        padding: 100px 0px 630px 0px;
+    }
+
+    .app-list__item{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        color: var(--white);
+        list-style: disc;
+    }
+}

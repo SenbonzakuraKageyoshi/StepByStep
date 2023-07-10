@@ -1,0 +1,50 @@
+@import './vendors/normalize.css';
+@import './vendors/typography.css';
+@import './vendors/vars.css';
+
+@import './components/_header.css';
+@import './components/_slider.css';
+@import './components/_footer.css';
+@import './components/_modal.css';
+
+@import './sections/_top.css';
+@import './sections/_advantages.css';
+@import './sections/_about.css';
+@import './sections/_courses.css';
+@import './sections/_reviews.css';
+@import './sections/_gallery.css';
+@import './sections/_app.css';
+
+body{
+    background: rgba(217, 217, 217, 0.10);
+}
+
+.container{
+    max-width: 1180px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+*{
+    font-family: 'Nunito';
+}
+
+.modal__button{
+    width: 200px;
+    height: 60px;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 42px;
+    background: #001E5C;
+    box-shadow: 3px 4px 15px 0px rgba(0, 30, 92, 0.60);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.modal__button:hover{
+    background: var(--red);
+    box-shadow: 3px 4px 15px 0px rgba(153, 1, 26, 0.6);
+}
